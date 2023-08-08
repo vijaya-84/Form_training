@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <h1>Registration Form</h1><br><br>
+</head>
+<body style="background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54579.jpg');">
+    <form action="https://formspree.io/f/moqojwwa" method="post">
+        <label for="name">Name:<input type="text" name="name" required></label>
+        
+        <label for="email">Email:<input type="email" name="email" required></label>
+        
+        <label for="password">password:<input type="password" name="password" required></label>
+        
+        <label for="phonenumber">Phonenumber:<input type="tel" name="tel" required></label>
+        
+        <label for="gender">gender <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">others</option>
+        </select></label>
+        
+       
+        <label for="zipcode">Zipcode:<input type="number" name="zipcode" required></label>
+        
+        <label for="About">About: <input type="textarea" name="about" required></label>
+       
+        <label for="favcolor">select your favoritecolor:<input type="color" name="favcolor"></label>
+        
+        <label for="url">Linkedin url</label>
+        <input type="url" name="Linkedin" required><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">HTML<br>
+
+        
+        <input type="radio" id="css" name="fav_language" value="CSS">CSS<br>
+         
+         <input type="radio" id="javascript" name="fav_language" value="JavaScript">Javascript<br>
+         
+
+       <label for="checkbox">Click the box</label>
+        <input type="checkbox" name="checkbox">
+        <div id="submit">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
